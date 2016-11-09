@@ -1,0 +1,65 @@
+/*style reset*/
+*{
+	padding:0; margin:0; font-family:arial;
+}
+.wp{width:960px; margin:0 auto;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+
+
+body{background:white;}
+#top {width:960px; height:40px; margin:0 auto; }
+.search{float:left;}
+.top_bar{float:right;}
+.top_bar li{float:left; height:30px; font-size:15px;line-height:30px;}
+.top_bar li{
+	display: inline;height: 30px;
+}
+.top_bar li a{
+	display: inline-block; padding: 0 10px; height: 60px; line-height: 60px;
+	color: #515151; font-family: arial; font-size: 10px;
+}
+.top_bar li a:hover{
+	color:#999A9F
+}
+
+
+
+
+#header{width:960px; height:150px; margin:0 auto;line-height:30px;line-height:30px; 
+        color: #515151; position: relative;}
+#header h1{ text-align: center; padding-top: 60px; font-size: 30px; font-family:;}
+
+ul#nav{ width:960px; height:60px; background:white;margin:0 auto} 
+ul#nav li{display:inline; height:30px;} 
+ul#nav li a{display:inline-block; padding:0 35px; height:60px; line-height:60px;
+ color:#515151; font-family:"arial"; font-size:13px;} 
+ul#nav li a:hover{color:#999a9f}
+
+.description_info{width:960px;height: 800px; margin:30px auto}
+
+.description .leftArea{width:460px; float: left;}
+.description .rightArea{width:500px;height: 600px; float: right;}
+/*pictures*/
+.description_imgs{text-align: center;}
+.description_imgs.big{height:500px; margin: 0 auto; text-align: center;}
+.des_smimg li{display: inline;}
+.des_content{padding=10px;}
+.des_content_tit{font:bold 16px/22px arial; color:#515151; padding:15px 25px; text-align: center;}
+.des_content .dt{font-size:15px;width: 200px; float:left; color:#515151; text-indent:150px; margin: 25px; }
+.des_content .dd{font-size:15px;width: 100px;float:left; color:#515151; margin: 25px;}
+
+.des_position{background-color: #FFC0CB;}
+
+
+.des_number{height: 32px; width:82px; border:#515151 solid 1px;}
+.des_number div{height: 100%; float: left;}
+.reduction,.plus{width:15px;line-height: 32px; text-align: center; background-color: orange;}
+.des_input input{width: 100%; height: 100%; line-height: :32px\9;background-color: pink;}
+.des_input{width:50px; }
+
+.shop_buy{text-align: center; }
+.shopping_btn{margin:20px 20px;display:inline-block;width:100px; height: 22px; background:url(../img/buy.jpg)left top no-repeat;}
+
+.buy_btn{margin:20px 20px; display: inline-block; width:81px; height: 22px; background: url(../img/cart.jpg)left top no-repeat;}
