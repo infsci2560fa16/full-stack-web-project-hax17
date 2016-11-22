@@ -1,0 +1,70 @@
+/*style reset*/
+*{
+	padding:0; margin:0; font-family:arial;
+}
+.wp{width:960px; margin:0 auto;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+
+
+body{background:white;}
+.top {width:960px; height:40px; margin:0 auto; position:fixed; top:0; left:50%; margin-left:-480px; background:#fff; z-index:10000 }.search{float:left;}
+.top_bar{float:right;}
+.top_bar li{float:left; height:30px; font-size:15px;line-height:30px;}
+.top_bar li{
+	display: inline;height: 30px;
+}
+.top_bar li a{
+	display: inline-block; padding: 0 10px; height: 40px; line-height: 40px;
+	color: #515151; font-family: arial; font-size: 10px;
+}
+.top_bar li a:hover{
+	color:#999A9F
+}
+
+
+
+.header{width:960px; height:150px; margin:40px auto 0;line-height:30px;line-height:30px; 
+        color: #515151; position: relative;}
+.header li{ text-align: center; padding-top: 60px; font-size: 30px; font-family:;}
+
+ul.nav{ width:960px; height:60px; background:white;margin:0 auto} 
+ul.nav li{display:inline; height:30px;} 
+ul.nav li a{display:inline-block; padding:0 35px; height:60px; line-height:60px;
+ color:#515151; font-family:"arial"; font-size:13px;} 
+ul.nav li a:hover{color:#999a9f}
+
+.loginregis{width:960px; height: 600px;margin: 30px auto; }
+.login_des .leftArea{width:480px; float: left;margin:50px auto;padding-left: 30px;}
+
+.loginBox{width:300px;margin: 10px auto; padding: 10px auto; }
+.login ul{margin:auto;}
+.login_input{border:#515151 solid 1px; height:32px; line-height:32px\9;text-indent: 5px; width:100%;}
+.l_tit{color:#515151; line-height: 20px;}
+.mb_10{margin-bottom: 10px;}
+.auto_login{padding-top:27px;padding-bottom: 28px;}
+.checked{position:relative; top:3px; margin-right: 3px;}
+.saveid{color:#515151;line-height: 20px; margin: 10px 10px;}
+.login_btn{width:150px; height:36px; float: right;
+margin:20px 20px;display:inline-block; background:url(../img/login.jpg)left top no-repeat;}
+
+.login_des .rightArea{width:300px; height: 500px; float:right; margin:50px auto;padding-right: 30px; }
+.regBox{width:300px;margin: 10px auto; padding: 10px auto; }
+.reg ul{margin:auto;}
+.join_btn{width:150px; height:36px;
+margin:20px 50px;display:inline-block; background:url(../img/join.jpg)left top no-repeat;}
+.auto_join{padding-top:27px;padding-bottom: 28px;}
+.regAccount{color: #515151; height: 36px; margin: 52px;}
+ul.reg{magin:auto 50px; text-align:center;margin: 80px auto; }
+
+.top  .top_logo{ position:absolute; left:445px; top:-40px; z-index:1000;}
+
+.login li a{
+	
+	color: #515151; 
+}
+.login li a:hover{
+	color:#999A9F
+}
+.center{align="center"}
