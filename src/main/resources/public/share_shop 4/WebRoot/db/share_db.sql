@@ -91,15 +91,6 @@ CREATE TABLE `goods_type_table` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- ----------------------------
--- Records of goods_type_table
--- ----------------------------
-INSERT INTO `goods_type_table` VALUES ('1', '\r\n最新商品', '士大夫', '2016-11-26 07:43:10', '0');
-INSERT INTO `goods_type_table` VALUES ('2', '\r\n特价商品', '士大夫', '2016-11-26 07:43:10', '0');
-INSERT INTO `goods_type_table` VALUES ('3', '\r\n精品礼盒', '士大夫', '2016-11-26 07:43:10', '0');
-INSERT INTO `goods_type_table` VALUES ('4', '爱情鲜花', '士大夫', '2016-11-26 07:43:10', '0');
-INSERT INTO `goods_type_table` VALUES ('5', '\r\n节日礼物', '士大夫', '2016-11-26 07:43:10', '0');
-INSERT INTO `goods_type_table` VALUES ('6', '测试题', '士大夫', '2016-11-26 07:43:10', '0');
 
 -- ----------------------------
 -- Table structure for order_table
@@ -189,14 +180,12 @@ INSERT INTO `user_table` VALUES ('1', 'admin', 'admin123', null, '1');
 DROP TABLE IF EXISTS `address_table`;
 CREATE TABLE `address_table` (
   `recipients` varchar(255) NOT NULL,
-  `address` varchar(255) NOT NULL COMMENT '收货地址',
-  `tel` int(11) NOT NULL COMMENT '收货人联系方式',
+  `address` varchar(255) NOT NULL COMMENT 'Address',
+  `tel` int(11) NOT NULL COMMENT 'Tel',
   `user_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `address_table` VALUES ('test1', '北京省北京市', 11111122, 1);
-INSERT INTO `address_table` VALUES ('test2', '河北省石家庄', 22222267, 1);
-INSERT INTO `address_table` VALUES ('test3', '河南省郑州市', 23456780, 1);
+
 
 -- ----------------------------
 -- Records of order_detail
@@ -210,10 +199,5 @@ CREATE TABLE `order_detail` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-INSERT INTO `order_detail` VALUES ('a30fdc606c6cb2d3', 'test1', '北京市', 12345678);
-INSERT INTO `order_detail` VALUES ('869cf98df9455b84', 'test2', '河北省石家庄市', 22222222);
-INSERT INTO `order_detail` VALUES ('b9c4e79d23d58fd7', 'test3', '河南省郑州市', 66666666);
-INSERT INTO `order_detail` VALUES ('8685b843de5c8868', 'test2', '河北省石家庄市', 22222222);
-INSERT INTO `order_detail` VALUES ('a19c27a36200e9fe', 'test4', '湖南省长沙市', 33333333);
 
 
